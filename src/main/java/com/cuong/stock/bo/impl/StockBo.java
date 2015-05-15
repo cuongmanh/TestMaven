@@ -1,12 +1,15 @@
 package com.cuong.stock.bo.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.cuong.stock.bo.IStockBo;
 import com.cuong.stock.dao.impl.StockDao;
 import com.cuong.stock.model.Stock;
-
+@Component("stockBo")
 public class StockBo implements IStockBo {
+	@Autowired
 	StockDao stockDao;
 	
 	

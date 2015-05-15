@@ -1,5 +1,7 @@
 package com.cuong.stock.dao;
 
+import org.springframework.stereotype.Component;
+
 import com.cuong.stock.model.Stock;
 
 public interface IStockDao {

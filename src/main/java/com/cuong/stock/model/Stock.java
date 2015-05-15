@@ -2,6 +2,8 @@ package com.cuong.stock.model;
 
 import java.io.Serializable;
 
+import org.springframework.stereotype.Component;
+@Component
 public class Stock implements Serializable {
 	/**
 	 * 

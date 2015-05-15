@@ -23,5 +23,6 @@ public class App {
 		stockBo.update(stock2);
 		
 		stockBo.delete(stock2);
+		
 	}
 }
